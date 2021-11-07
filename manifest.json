@@ -1,0 +1,32 @@
+{
+    "author": "s0nought",
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "stay-there@s0nought.cat"
+        }
+    },
+    "content_scripts": [
+        {
+            "matches": ["*://dev.gamebanana.com/*"],
+            "js": ["content-script.js"],
+            "run_at": "document_idle"
+        }
+    ],
+    "default_locale": "en",
+    "description": "__MSG_extensionDescription__",
+    "homepage_url": "https://github.com/s0nought",
+    "icons": {
+        "16": "icon.svg",
+        "32": "icon.svg",
+        "48": "icon.svg",
+        "64": "icon.svg",
+        "80": "icon.svg",
+        "96": "icon.svg",
+        "112": "icon.svg",
+        "128": "icon.svg"
+    },
+    "manifest_version": 2,
+    "name": "stay-there: edit hyperlink destinations on dev.gb",
+    "short_name": "stay-there",
+    "version": "1.0"
+}
