@@ -1,7 +1,7 @@
-# stay-there
+# devgb.stay-there
 
 ## Summary
-Extension for Firefox.
+An extension for Firefox to alter hyperlinks pointing to the live site.
 
 ## What it does
 Watches for changes being made to the DOM tree (target - `document.body`).
