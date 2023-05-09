@@ -1,4 +1,6 @@
-# devgb.stay-there
+# DEPRECATED
+
+This extension is no longer supported.
 
 ## Summary
 An extension for Firefox to alter hyperlinks pointing to the live site.
